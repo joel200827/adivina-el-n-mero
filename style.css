@@ -1,0 +1,107 @@
+:root {
+    --fuenteheading: 'Slackey', sans-serif;
+    --fuentenav: 'Jersey 10', sans-serif;
+    --primario: #53ee0a;
+    --secundario: #0e15d0;
+    --fondo: #d0d3d7;
+    --negro: #000000;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --marado: #D2B4DE;
+    --col: #B3E5FC;
+    --mar: #B03A2E;
+    --rojo: #D51B1B;
+    --ama: #F1C40F;
+    --mor:  #8328BB;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, var(--marado) 0%, var(--col) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: var(--marado);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input.numero {
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input.btnEnviar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input.btnEnviar:hover {
+    background-color: #0056b3;
+}
+
+.mensajes {
+    margin-top: 20px;
+}
+
+.resultado, .pista, .previa {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.resultado {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #ff0000; /* Color inicial, cambiará según la respuesta */
+}
+
+.pista {
+    color: #000000;
+}
+
+.previa {
+    color: #000000;
+    font-style: italic;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
